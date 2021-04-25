@@ -1,11 +1,13 @@
 import {
     createRouter,
-    createWebHashHistory,
+    // createWebHashHistory,
+    createWebHistory,
     RouteRecordRaw
 } from 'vue-router';
 
 import Home from '@/views/home.vue';
 import Vuex from '@/views/vuex.vue';
+// import Axios from '@/views/axios.vue';
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -26,7 +28,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes
 })
 
