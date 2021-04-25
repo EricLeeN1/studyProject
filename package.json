@@ -1,10 +1,15 @@
 {
   "name": "v3-project",
   "version": "0.0.0",
+  "description": "A Vite2.x + Vue3 + TypeScript template starter",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
+    "build-tsc": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
+    "format": "prettier --write ./src",
+    "lint": "eslint ./src --ext .vue,.js,.ts",
+    "lint-fix": "eslint --fix ./src --ext .vue,.js,.ts",
     "prepare": "husky install",
     "test": "jest"
   },
