@@ -49,6 +49,8 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 
         ├── utils/                     // 工具函数目录
 
+            ├── axios.ts               // Axios 配置文件
+
         ├── views/                     // 页面组件目录
 
         ├── App.vue
