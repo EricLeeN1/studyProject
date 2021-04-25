@@ -60,6 +60,8 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 
     ├── tests/ // 单元测试目录
 
+        ├── Test.spec.ts               // Test 组件测试
+
     ├── index.html
 
     ├── tsconfig.json // TypeScript 配置文件
