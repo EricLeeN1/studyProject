@@ -43,6 +43,8 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 
         ├── store/                     // 状态管理目录
 
+            ├── index.ts               // store 配置文件
+
         ├── style/                     // 通用 CSS 目录
 
         ├── utils/                     // 工具函数目录
